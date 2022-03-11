@@ -12,8 +12,9 @@ html,body {
   font-size: 200px;
   font-weight: 300;
 }
-.tempo_base {
-  position: relative;
-  width: 300px;
-  height: 300px;
+.circulo{
+  height: 250px;
+  width: 250px;
+  background-color: #bbb;
+  border-radius: 50%;
 }
