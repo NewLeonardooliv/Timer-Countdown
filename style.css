@@ -9,7 +9,7 @@
 div.circulo{
   height: 400px;
   width: 400px;
-  padding-top: 120px;
+  padding-top: 140px;
   margin: 150px 600px;
   border: 10px solid orange;
   border-radius: 250px;
@@ -21,12 +21,9 @@ span {
   font-weight: 300;
 }
 a{
+  display: block;
+  background-color: green;
   color: white;
-  margin: 0 50px;
-  border: 2px solid orange;
   text-decoration: none;
-}
-.cancelar{
-  height: 100px;
-  width: 100px;
+  text-align: center;
 }
