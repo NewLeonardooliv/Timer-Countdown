@@ -1,4 +1,4 @@
-const minutes = 5;
+const minutes = 1;
 let countdownSeconds = minutes * 60;
 
 function renderCoundown(minutes, seconds) {
