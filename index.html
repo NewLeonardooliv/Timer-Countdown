@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Timer CountDown</title>
-    <script src="./script.js " defer></script>
+    <script src="./timer.js " defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
@@ -20,11 +20,11 @@
         <span id="seconds">00</span>
     </div>
     <div class="botoes">
-        <a href="">
-            <p id="cancel" class="cancelar">Cancelar</p>
+        <a onclick="cancel()">
+            <p class="cancelar">Cancelar</p>
         </a>
-        <a href="">
-            <p id="pause" class="pausar">Pausar</p>
+        <a onclick="pause()">
+            <p class="pausar">Pausar</p>
         </a>
     </div>
 </body>

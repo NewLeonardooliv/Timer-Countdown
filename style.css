@@ -37,6 +37,11 @@ span {
 
 a {
     text-decoration: none;
+    cursor: pointer;
+}
+
+button {
+    color: black;
 }
 
 .cancelar {
@@ -54,7 +59,7 @@ a {
 }
 
 .pausar {
-    color: white;
+    color:  #fe9f06;
     position: relative;
     display: flex;
     justify-content: center;
