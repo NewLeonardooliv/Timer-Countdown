@@ -4,7 +4,6 @@ let seconds = minutes * 60;
 function timer(minutes, seconds) {
     const showMinutes = minutes < 10 ? minutes = '0' + String(minutes) : minutes = String(minutes);
     const showSeconds = seconds < 10 ? seconds = '0' + String(seconds) : seconds = String(seconds);
-    console.log(`${showMinutes}:${showSeconds}`);
 
     const minutesTime = document.getElementById("minutes");
     const secondsTime = document.getElementById("seconds");
