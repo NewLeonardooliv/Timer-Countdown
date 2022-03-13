@@ -39,14 +39,8 @@ a {
     text-decoration: none;
     cursor: pointer;
 }
-
-button {
-    color: black;
-}
-
 .cancelar {
     color: white;
-    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,7 +54,6 @@ button {
 
 .pausar {
     color:  #fe9f06;
-    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
