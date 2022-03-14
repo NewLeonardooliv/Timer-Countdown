@@ -1,14 +1,15 @@
 * {
     outline: none;
     box-sizing: border-box;
-    background-color: black;
-    font-family: 'Roboto', sans-serif;
+
 }
 
 body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
 }
 
 .circulo {
@@ -20,6 +21,16 @@ body {
     height: 400px;
     border-radius: 250px;
     border: 8px solid orange;
+}
+#timerBackground {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #1C1C1D;
+    border-radius: 50%;
+    z-index: -1;
 }
 
 span {
@@ -44,8 +55,8 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: thick double #1c1c1d;
-    background-color: #1c1c1d;
+    border: 2px solid #1c1c1d;
+    background-color: black;
     width: 90px;
     height: 90px;
     border-radius: 250px;
@@ -57,9 +68,30 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: thick double #331f02;
-    background-color: #331f02;
+    border: 2px solid #331f02;
+    background-color: black;
     width: 90px;
     height: 90px;
     border-radius: 250px;
+}
+.pausar, .cancelar{
+    font-weight: bold;
+}
+.button-pausar{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #331f02;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.button-cancelar{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #1c1c1d ;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
 }

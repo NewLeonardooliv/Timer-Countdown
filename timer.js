@@ -1,5 +1,6 @@
 const minutes = 1;
-let seconds = minutes * 60;
+let secondsTotal = minutes * 60;
+let seconds = secondsTotal;
 
 function timer(minutes, seconds) {
     //adiciona o 0 se o valor for menor que 10 e transforma em string
@@ -12,6 +13,12 @@ function timer(minutes, seconds) {
 
     minutesTime.innerHTML = showMinutes;
     secondsTime.innerHTML = showSeconds;
+
+
+    const percentage = ((100 / secondsTotal) * seconds);
+    console.log(percentage);
+    document.getElementById('timerBackground').setAttribute("style", `width:${percentage}%; height:${percentage}%;`);
+
 }
 
 //transforma o setInterval em uma variavel para ser puxada na hora do clearInterval
